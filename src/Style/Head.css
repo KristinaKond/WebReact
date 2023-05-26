@@ -1,0 +1,155 @@
+.header{
+    width: 100%;
+    height: 700px;
+    background-size: 100% auto; 
+    background-repeat: no-repeat;
+    background-image: url('../Photos/photo-header.jpg');
+}
+
+.header-top {
+    justify-content: space-between;
+    display: flex;    
+    align-items: center;
+    width: 1100px;
+    margin: auto;
+    height: 90px;
+ }
+
+ #top-left{
+    width: 150px;
+    height: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-style:oblique; 
+ }
+
+ #get-tickets{
+    font-weight: 800;
+    background: white;
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: rgb(168,176,232);
+    color:rgb(139,102,178);
+  }
+
+  #get-tickets:hover{
+    background: rgb(255, 172, 172);
+    color:rgb(99, 80, 119);
+    box-shadow: 5px 5px 2px 1px rgba(184, 137, 235, 0.767); 
+  }
+
+ .top-right{
+    justify-content: space-between;
+    display: flex;
+    width: 600px;
+    height: 90px;
+ }
+
+ .btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+}
+
+
+
+
+.btns_b {
+    background-color: #ebc8c8;
+    border-radius: 10px;
+    height: 40px;
+    width: 110px;
+    margin-top: 25px;
+    padding: 20px;
+}
+
+.btns_b:hover {
+    background-color: #ebb7b7;
+    color:rgb(253, 246, 246);
+}
+
+div.btns p{
+    margin: 0;    
+    font-size: medium;
+    color:white;
+}
+
+.b-content{
+    text-align: center;
+    color: black;
+    padding-top: 100px;
+}
+
+#Big-text{
+    font-weight: 800;
+    font-size: 36pt;
+    padding-bottom: 50px;
+}
+
+.text_Small{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+#small-text{
+    font-weight: lighter;
+    font-size: 18pt;
+    width: 50%;
+}
+
+.btn-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.btn-content div{
+    margin: 10px;
+}
+
+#get-started-btn{
+    background: red; /* Красный цвет фона */ 
+    color: white; /* Белые буквы */ 
+    font-weight: 700;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: red;
+    font-size: 14pt; 
+}
+
+#get-started-btn:hover{
+    color: rgb(253, 246, 246); 
+    box-shadow: 5px 5px 2px 1px rgba(221, 119, 119, 0.767); 
+ }
+
+#watch-video-btn{
+    background: none; 
+    color:white;
+    background-color: rgb(168,176,232);
+    height: 50px;
+    font-weight: 700;
+    border-radius: 10px;
+    border-color: rgb(168,176,232);
+    font-size: 14pt; 
+}
+
+#watch-video-btn:hover{
+    color:rgb(236, 230, 230);
+    background-color: rgb(118, 133, 240);
+    border-color: rgb(168,176,232);
+    box-shadow: 5px 5px 2px 1px rgba(174, 181, 238, 0.767); 
+}
+
+a{
+   text-decoration: none;    
+}
+
+.imageTops{
+    vertical-align: middle;
+    width: 15px; 
+    height: 20px;
+}

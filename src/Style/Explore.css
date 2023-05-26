@@ -1,0 +1,63 @@
+.titleExplore
+{
+    color:darkorchid;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.strok{
+    justify-content: space-around;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    background-color:#eefbee;
+ }
+
+ .divStrok{
+    background-color: antiquewhite;
+    height: 200px;
+    margin-top: 4%;
+    width: 260px;
+    border-radius: 10%;
+ }
+
+ /*Внутри карточки (картинка и текст)*/
+ .picture{
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+ }
+ #Pop{
+    background-image: url('../Photos/icons/Pop.svg');
+ }
+ #Rock{
+    background-image: url('../Photos/icons/Rock.svg');
+ }
+ #Folk{
+    background-image: url('../Photos/icons/Folk.svg');
+ }
+ #Instrumental{
+    background-image: url('../Photos/icons/Instrumental.svg');
+ }
+ #Jazz{
+    background-image: url('../Photos/icons/Jazz.svg');
+ }
+ #Lable{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px; 
+    margin: auto;
+    margin-left: 12px;
+ }
+ #textLable{
+    width: 190px;
+    height: 72px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 12px;
+ }

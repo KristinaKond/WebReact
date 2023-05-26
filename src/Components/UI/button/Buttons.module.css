@@ -1,0 +1,102 @@
+.button_container {
+    display: block;
+    width: 200px;
+    margin: 50px auto;
+}
+
+.myBtn {
+    display: block;
+    padding: 5px 15px;
+    padding: 10px;
+   /* margin: 10px;
+    color: cornflowerblue;*/
+    font-size: 14px;
+    color: white;
+    background: linear-gradient(90deg, #9383C5, #56E3FA);
+    /*border: 3px solid cornflowerblue;*/
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+/* 
+.myBtn:hover {
+    color: rgb(100, 149, 237);
+    background: rgb(204, 216, 240);
+    border: 3px solid rgb(76, 114, 184);
+} */
+
+
+.effect-container {
+    position: relative;
+    overflow: hidden;
+
+    --effect-name: ripple;
+    --effect-duration: 1000ms;
+    --effect-top: 0px;
+    --effect-left: 0px;
+    --effect-height: 100px;
+    --effect-width: 100px;
+    --effect-color: white;
+}
+
+.effect-container::before {
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+
+    top: var(--effect-top);
+    left: var(--effect-left);
+    height: var(--effect-height);
+    width: var(--effect-width);
+    border-radius: 50%;
+    transform: scale(0);
+    background-color: var(--effect-color);
+}
+
+.effect-container.active::before {
+border-radius: 50%;
+animation: ripple var(--effect-duration) linear forwards;
+}
+
+
+@keyframes ripple {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(6);
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

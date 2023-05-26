@@ -1,0 +1,131 @@
+/* .marquee-content {
+    width: 100vw; 
+    height: 150px;
+    margin-top: 20px;
+}
+
+
+:root {
+    --marquee-width: 100vw;
+   --marquee-height: 20vh; 
+   --marquee-elements-displayed: 5;
+   --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
+   --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
+ }
+ 
+ .marquee {
+   height: 265px;
+   display: flex;
+   justify-content: center;
+   background-color: #111;
+   overflow: hidden;
+   position: relative;
+ }
+ .marquee:before, .marquee:after {
+   position: absolute;
+   top: 0;
+   width: 10rem;
+   height: 100%;
+   content: "";
+   z-index: 1;
+ }
+ 
+ .marquee:before {
+   left: 0;
+   background: linear-gradient(to right, #111  0%, transparent 100%);
+ }
+ .marquee:after {
+   right: 0;
+   background: linear-gradient(to left, #111 0%, transparent 100%);
+ }
+ .marquee-content {
+   list-style: none;
+   height: 100%;
+   display: flex;
+   animation: scrolling var(--marquee-animation-duration) linear infinite;
+ }
+ 
+ @keyframes scrolling {
+   0% { transform: translateX(0); }
+   100% { transform: translateX(calc(-1 * var(--marquee-element-width) * var(--marquee-elements))); }
+ }
+ 
+ .marquee-content li {
+   flex-shrink: 0;
+   width: var(--marquee-element-width);
+   max-height: 100%;
+   font-size: calc(var(--marquee-height)*3/4); 
+   white-space: nowrap;
+ }
+ 
+ .marquee-content li img {
+   width: 100%;
+   height: 230px;
+   border-left: 4px solid #111;
+ }
+ 
+ @media (max-width: 600px) {
+   html { font-size: 12px; }
+   :root {
+     --marquee-width: 100vw;
+     --marquee-height: 16vh;
+     --marquee-elements-displayed: 3;
+   }
+   .marquee:before, .marquee:after { width: 5rem; }
+ }
+  */
+
+  .carousel {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+
+  .main-container {
+    width: 450px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .window {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .all-pages-container {
+    height: 100%;
+    display: flex;
+    transition: translate;
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+  }
+  
+  .arrow {
+    cursor: pointer;
+  }
+
+  
+  .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 100%;
+    height: 100%;
+  }
+
+  .item-1{
+    background-color: aquamarine;
+  }
+
+  .item-2{
+    background-color:blue;
+  }
+
+  .item-3{
+    background-color:violet;
+  }

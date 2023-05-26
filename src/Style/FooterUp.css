@@ -1,0 +1,141 @@
+
+.footer_up{
+    width: 100%; 
+    height: 550px; 
+    display:flex;
+}
+
+.left{
+    background-color:darkblue;
+     padding: 100px;
+     width: 40%;
+}
+
+.contactUs{
+    color: white; 
+    margin-bottom: 18px;
+    font-size: 24px; 
+    font-family: Georgia, serif;
+}
+
+.inquiry{
+    color: white;
+    margin-bottom: 10px;
+     font-size: 20px; 
+    font-family: Georgia, serif;
+}
+
+.imgDiv{
+    display: flex;
+}
+
+.phone, .email, .address{
+    margin: 18px 0px 18px 7px;
+    color: white; 
+    font-size: 18px;
+     font-family: Georgia, serif;
+}
+
+.right{
+    background-color:white;  
+     border: 1px solid #6495ed;
+     width: 60%; 
+    position: relative;
+}
+
+.rightForm{
+    display: flex; 
+    align-items: center;
+}
+
+.forms_{
+    display: grid; 
+    padding: 100px 0px 10px 100px;
+}
+
+.h1_text{
+    font-weight: 600; 
+    color: rgb(212, 164, 164); 
+    font-family: Georgia, serif;
+}
+
+.lbl_{
+    color:rgb(212, 164, 164);
+}
+.inp{
+    margin-bottom: 15px;
+}
+
+.btnSubmit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     align-items: center; 
+     padding: 10px 30px;
+      gap: 12px; 
+      border-radius: 25px; 
+      border: 2px solid cornflowerblue; 
+      background-color: darkblue; 
+      color: white;
+      font-weight: 600; 
+      cursor: pointer;
+     font-size: 18px;
+}
+
+.imgShape{
+    position: absolute;
+     height: 70px; 
+     bottom: 0; 
+    right: 0;
+}
+
+.imgShape_{
+    height: 70px;
+}
+
+#submit{
+    display: block;
+    height: calc(2.25rem + 2px);
+     width: 45vw;
+     padding: 0.375rem 0.75rem;
+     font-family: inherit;
+     font-size: 1rem;
+     font-weight: 400;
+     line-height: 1.5;
+     color: #212529;
+     background-color: #ffecec;
+     background-clip: padding-box;
+     border-radius: 0.25rem;
+     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+     border: 0;
+     border-bottom: 1px solid #4253cd;
+    }
+ 
+    #submit2{
+       display: block;
+       width: 47vw;
+       padding: 0.375rem 0.75rem;
+       font-family: inherit;
+       font-size: 1rem;
+       font-weight: 400;
+       line-height: 1.5;
+       color: #212529;
+       background: transparent;
+       resize: none;
+       border-bottom: 1px solid #fff;
+       background-color: #ffecec;
+       background-clip: padding-box;
+       border-radius: 0.25rem;
+       transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+       border-bottom: 1px solid #fff;
+       border: 0;
+       border-bottom: 1px solid #3b4dcc;
+       }
+ 
+ #submit2:focus, #submit:focus{
+       color: #212529;
+       background-color: #fff;
+       border-color: #bdbdbd;
+       outline: 0;
+       box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+ }
