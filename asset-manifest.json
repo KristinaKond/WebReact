@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/WebReact/static/css/main.5094eaf3.css",
+    "main.js": "/WebReact/static/js/main.7f8207fe.js",
+    "static/media/photo-header.jpg": "/WebReact/static/media/photo-header.093401777d59b99ec5b6.jpg",
+    "static/media/singers_4.png": "/WebReact/static/media/singers_4.36f091f81aa3af494b6c.png",
+    "static/media/singers_2.png": "/WebReact/static/media/singers_2.993def983eefc9b86acc.png",
+    "static/media/singers_1.png": "/WebReact/static/media/singers_1.293de7c95b363c90f5a7.png",
+    "static/media/Img.jpg": "/WebReact/static/media/Img.53e86d0778e2a91cc4f1.jpg",
+    "static/media/singers_3.png": "/WebReact/static/media/singers_3.707401181d0e1a234d18.png",
+    "static/media/Img2.jpg": "/WebReact/static/media/Img2.ebf7bfa1f499bb02ee82.jpg",
+    "static/media/anonim.jpg": "/WebReact/static/media/anonim.0520ffdbd4a6cdb6590a.jpg",
+    "static/media/Rock.svg": "/WebReact/static/media/Rock.d52850a8f990cac455c2.svg",
+    "static/media/Folk.svg": "/WebReact/static/media/Folk.857ceebfc5515ebd4510.svg",
+    "static/media/Pop.svg": "/WebReact/static/media/Pop.a9849153414f4faec572.svg",
+    "static/media/Jazz.svg": "/WebReact/static/media/Jazz.3e7e7c757f64af27c016.svg",
+    "static/media/Instrumental.svg": "/WebReact/static/media/Instrumental.19623ceccf305dd87a9a.svg",
+    "static/media/phone.svg": "/WebReact/static/media/phone.b22c1a79af6ce5cc12be693b2713d92f.svg",
+    "static/media/geo.svg": "/WebReact/static/media/geo.b19df449b492078b8744df51a0670b9d.svg",
+    "static/media/Email.svg": "/WebReact/static/media/Email.844bd1eed5a0682ddd8d8e711bd51e0c.svg",
+    "static/media/arrowDown.svg": "/WebReact/static/media/arrowDown.199a05f986c390c6fe1c2e652c13c322.svg",
+    "static/media/Shape.svg": "/WebReact/static/media/Shape.14da0ba9bbb3ff730a1bc2e58b9d3507.svg",
+    "index.html": "/WebReact/index.html",
+    "static/media/arrowRight.svg": "/WebReact/static/media/arrowRight.17697064aaff5abc04c23bcb4125e277.svg",
+    "main.5094eaf3.css.map": "/WebReact/static/css/main.5094eaf3.css.map",
+    "main.7f8207fe.js.map": "/WebReact/static/js/main.7f8207fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5094eaf3.css",
+    "static/js/main.7f8207fe.js"
+  ]
+}
